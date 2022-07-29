@@ -1,0 +1,38 @@
+{
+  "name": "genesis-test-backend",
+  "version": "1.0.0",
+  "description": "My test task for Genesis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "start:dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamkaman/genesis-test-backend.git"
+  },
+  "keywords": [
+    "backend",
+    "test task"
+  ],
+  "author": "Volodymyr Riabushko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamkaman/genesis-test-backend/issues"
+  },
+  "homepage": "https://github.com/dreamkaman/genesis-test-backend#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
